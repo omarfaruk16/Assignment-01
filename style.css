@@ -29,9 +29,11 @@
 /*header*/
 .header {
     background-image: url(Assets/Hero-bg.png);
-    padding: 50px 150px;
 }
 .header nav{
+    width: 1050px;
+    margin: 0 auto;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     background: transparent;
@@ -44,6 +46,7 @@
 .btn-main {
     background-color: #4E47FF;
     color: #FFFFFF;
+    transition: transform 0.2s ease;
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
@@ -52,11 +55,18 @@
     font-family: "Raleway", sans-serif;
     font-weight: bold;
 }
+.btn-main:hover{
+    background-color: #E8C21B;
+    transform: scale(1.05);
+
+}
+
 .header .hero{
     width: 1050px;
     background: transparent;
     margin: 158px auto;
     text-align: center;
+    padding-bottom: 150px;
     
 }
 .header .hero h1 {
