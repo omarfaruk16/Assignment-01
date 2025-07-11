@@ -276,3 +276,49 @@
 .form-section button{
     padding: 12px 222px;
 }
+
+
+footer{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+footer h1{
+    background: transparent;
+    color:#4E47FF ;
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    width: 600px;
+    margin: 0 auto;
+    background: transparent;
+    padding: 100px 0px;
+}
+
+.footer p{
+    background: transparent;
+    color: #5c5c5c;
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #FFFFFF;
+
+}
+
+.footer li{
+    list-style-type: none;
+    background: transparent;
+}
+
+footer .footer-menu ul a{
+    text-decoration: none;
+    color: #5c5c5c ;
+    background: transparent;
+}
