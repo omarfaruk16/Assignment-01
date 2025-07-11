@@ -238,4 +238,41 @@
 .focus button{
     margin-bottom: 20px;
 }
+
+.form-section{
+    width: 1050px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-section h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.form-section .form >label,input{
+    display: block;
+}
 /*4E47FF*/
+
+.form-section .form >input, textarea{
+    width: 497px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;;
+
+}
+
+.form-section .form >label{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form-section button{
+    padding: 12px 222px;
+}
