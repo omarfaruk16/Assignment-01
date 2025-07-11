@@ -3,8 +3,8 @@
     padding: 0;
     background-color: #F5F8FF ;
     max-width: 1440px;
-
 }
+
 
 /*fonts*/
 .raleway-font {
@@ -205,4 +205,37 @@
     
 }
 
+.focus{
+    max-width: 1050px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+
+}
+
+.focus h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background: transparent;
+    padding-top: 71px;
+
+}
+
+.focus p{
+    text-align: center;
+    font-size: 16px;
+    background: transparent;
+    margin: 20px 0px;
+}
+
+.focus img{
+    border-radius: 48px;
+    margin-bottom: 71px;
+}
+
+.focus button{
+    margin-bottom: 20px;
+}
 /*4E47FF*/
